@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>PlPsyCongroo</title>
+  <title>El Psy Congroo</title>
   
   <subtitle>here is subtitle</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://github.com/dmdkhao/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://github.com/dmdkhao/"/>
   <updated>2025-10-15T07:22:30.870Z</updated>
-  <id>http://example.com/</id>
+  <id>https://github.com/dmdkhao/</id>
   
   <author>
     <name>dmdkHao</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>个人网站GitHub Pages搭建</title>
-    <link href="http://example.com/2025/10/15/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99GitHub-Pages%E6%90%AD%E5%BB%BA/"/>
-    <id>http://example.com/2025/10/15/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99GitHub-Pages%E6%90%AD%E5%BB%BA/</id>
+    <link href="https://github.com/dmdkhao/2025/10/15/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99GitHub-Pages%E6%90%AD%E5%BB%BA/"/>
+    <id>https://github.com/dmdkhao/2025/10/15/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99GitHub-Pages%E6%90%AD%E5%BB%BA/</id>
     <published>2025-10-15T06:55:56.000Z</published>
     <updated>2025-10-15T07:22:30.870Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>My New Post</title>
-    <link href="http://example.com/2025/10/11/My-New-Post/"/>
-    <id>http://example.com/2025/10/11/My-New-Post/</id>
+    <link href="https://github.com/dmdkhao/2025/10/11/My-New-Post/"/>
+    <id>https://github.com/dmdkhao/2025/10/11/My-New-Post/</id>
     <published>2025-10-11T08:15:54.000Z</published>
     <updated>2025-10-11T08:18:57.767Z</updated>
     
@@ -56,14 +56,14 @@
     
     
     
-    <category term="test 测试" scheme="http://example.com/tags/test-%E6%B5%8B%E8%AF%95/"/>
+    <category term="test 测试" scheme="https://github.com/dmdkhao/tags/test-%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2025/10/11/hello-world/"/>
-    <id>http://example.com/2025/10/11/hello-world/</id>
+    <link href="https://github.com/dmdkhao/2025/10/11/hello-world/"/>
+    <id>https://github.com/dmdkhao/2025/10/11/hello-world/</id>
     <published>2025-10-11T08:06:52.205Z</published>
     <updated>2025-10-11T08:06:52.205Z</updated>
     
