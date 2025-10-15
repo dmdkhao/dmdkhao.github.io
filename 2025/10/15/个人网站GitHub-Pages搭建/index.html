@@ -9,10 +9,10 @@
 <p>什么是Hexo？一个快速、简洁、高效的静态博客框架，基于Node.js运行。可以将markdown文档解析并渲染成静态HTML页面。</p>
 <p>什么是Typography？Hexo的一种主题风格。</p>
 <p><strong>发布原理</strong>：本地撰写.Markdown文件，通过Hexo解析文档并渲染成HTML静态页面，推送至GitHub完成博文发布。</p>
-<p><img src="/image1.png" alt="image1"></p>
+<p><img src="/2025/10/11/hello-world/ages%E6%90%AD%E5%BB%BA/image1.png" alt="image1"></p>
 <h1 id="二、搭建步骤"><a href="#二、搭建步骤" class="headerlink" title="二、搭建步骤"></a>二、搭建步骤</h1><h2 id="2-1-创建GitHub-Page-repo"><a href="#2-1-创建GitHub-Page-repo" class="headerlink" title="2.1 创建GitHub Page repo"></a>2.1 创建GitHub Page repo</h2><p> GitHub允许每个人创建自己的博客仓库，按照一定规则创建后可以直接通过浏览器访问博客。</p>
 <p>GitHub上创建仓库，仓库名为”用户名.github.io” 访问权限public：</p>
-<p><img src="/image2.png" alt="image2"></p>
+<p><img src="/2025/10/11/hello-world/ages%E6%90%AD%E5%BB%BA/image2.png" alt="image2"></p>
 <h2 id="2-2-Hexo安装"><a href="#2-2-Hexo安装" class="headerlink" title="2.2 Hexo安装"></a>2.2 Hexo安装</h2><h3 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h3><p>Hexo需要安装到本地，新建一个blog文件夹，例如：Hexo-Blog，在文件夹中打开命令行，执行指令。</p>
 <p><em>注：本文使用node v22.20</em></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用npm一键安装Hexo博客程序</span></span><br><span class="line">npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line"><span class="comment"># mac用户可能会需要超管权限</span></span><br><span class="line"><span class="built_in">sudo</span> npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
@@ -23,10 +23,10 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g   <span class="comment"># 生成页面</span></span><br><span class="line">hexo s   <span class="comment"># 启动预览</span></span><br></pre></td></tr></table></figure>
 
 <p>执行顺利后命令行会提示本地访问博客地址和端口，如<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a> 打开后看到home页如下：</p>
-<p><img src="/image3.png" alt="image3"></p>
+<p><img src="/2025/10/11/hello-world/ages%E6%90%AD%E5%BB%BA/image3.png" alt="image3"></p>
 <p>Ctrl + C 关闭本地预览。</p>
 <p>Hexo博客文件夹目录如下：</p>
-<p><img src="/image4.png" alt="image4"></p>
+<p><img src="/2025/10/11/hello-world/ages%E6%90%AD%E5%BB%BA/image4.png" alt="image4"></p>
 <p>经常使用到的文件有</p>
 <ul>
 <li>_config.yml：配置文件，标题、主题、链接、图标、插件的配置等均在此文件中配置。</li>
@@ -65,8 +65,9 @@
 
 <h2 id="3-2-创建文章"><a href="#3-2-创建文章" class="headerlink" title="3.2 创建文章"></a>3.2 创建文章</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;个人网站GitHub Pages搭建&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p><img src="/image5.png" alt="image5"></p>
+<p><img src="/2025/10/11/hello-world/ages%E6%90%AD%E5%BB%BA/image5.png" alt="image5"></p>
 <p>创建后，使用工具打开文档如下：</p>
-<p><img src="/image6.png" alt="image6"></p>
+<p><img src="/2025/10/11/hello-world/ages%E6%90%AD%E5%BB%BA/image6.png" alt="image6"></p>
 <p>添加内容并保存。</p>
+<p><img src="/2025/10/11/hello-world/ages%E6%90%AD%E5%BB%BA/image-20251015152157362.png" alt="image-20251015152157362"></p>
 </p></div><div class="share"><span>Share</span>&nbsp;<span class="soc"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></span><span class="soc"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></span><span class="soc"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=http://example.com/2025/10/15/个人网站GitHub-Pages搭建/%20PlPsyCongroo%20个人网站GitHub Pages搭建"></a></span></div><div class="pagination"><p class="clearfix"><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/2025/10/11/My-New-Post/" title="My New Post">Next post: My New Post&nbsp;<i class="fa fa-angle-double-right"></i></a></span></p></div></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2025&nbsp;<a target="_blank" href="http://example.com" rel="noopener noreferrer">dmdkHao</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.js"></script></body></html>
